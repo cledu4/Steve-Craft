@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actualités - Steve Craft</title>
-    <link rel="stylesheet" href="C:\Users\User\OneDrive\Bureau\Steve-Craft\css\actualités_css.css">
+    <link rel="stylesheet" href="..\css\actualités_css.css">
 </head>
 
 <body>
@@ -16,10 +16,6 @@
     <article id="article-content">
         <!-- Le contenu de l'article sera inséré ici dynamiquement -->
     </article>
-
-    <footer>
-        <p>© 2024 Steve Craft. Tous droits réservés.</p>
-    </footer>
 
     <script>
         document.getElementById('article-content').innerHTML = `
@@ -36,6 +32,9 @@
             
             <p>Avec le lancement de cette deuxième version, Steve Craft s'engage à offrir aux joueurs une aventure virtuelle encore plus palpitante. Que vous soyez un constructeur de renommée mondiale, un explorateur intrépide ou un marchand prospère, le monde de Steve Craft est prêt à vous accueillir pour une expérience inoubliable. Rejoignez-nous dans cette nouvelle étape de l'aventure Steve Craft et préparez-vous à explorer, construire et conquérir comme jamais auparavant !</p>
         `;
+     <footer>
+        <p>© 2024 Steve Craft. Tous droits réservés.</p>
+        </footer>
     </script>
 </body>
 
