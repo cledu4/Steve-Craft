@@ -1,0 +1,181 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Assurez-vous que le bouton est au-dessus du texte */
+.button {
+    z-index: 1;
+}
+
+/* Styles pour le header */
+header {
+    height: 260px; /* Augmentez la hauteur du header pour garantir la visibilité du bouton */
+}
+
+.button {
+    display: inline-block;
+    background-color: #ff5500;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    z-index: 1; /* Assurez-vous que le bouton est au-dessus du texte */
+}
+
+.button:hover {
+    background-color: #e04400;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed; /* Fixe le header en haut de la page */
+    top: 0; /* Position en haut de la page */
+    left: 0; /* Position à gauche de la page */
+    width: 100vw; /* Prend 100% de la largeur de la vue */
+    height: 100px; /* Hauteur de 10% de la hauteur de la vue */
+    z-index: 1000; /* Assurez-vous que le header est au-dessus du reste du contenu */
+}
+
+.logo {
+    max-width: 200px; /* Ajustez la taille du logo selon vos besoins */
+    height: auto; /* Permet au logo de conserver son ratio hauteur/largeur */
+    margin-left: 20px; /* Espacement à gauche du logo */
+}
+
+/* Autres styles pour le contenu de la page */
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Ajustez la hauteur selon vos besoins */
+    overflow: hidden; /* Masquer le débordement */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    position: relative; /* Ajoutez cette propriété */
+}
+
+h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ff5500;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e04400;
+}
+
+/* Styles pour la section Wiki */
+.white-band {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.left-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+/* Styles pour les groupes d'informations */
+.info-groups {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.info-group {
+    flex: 1;
+    background-color: #f3f3f3;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.special-thanks {
+    margin-bottom: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header {
+        padding: 30px 0;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+
+    .info-group {
+        margin-bottom: 20px;
+    }
+}
+
+.join-faction {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex: 1;
+    padding-left: 20px; /* Espacement entre l'image et le texte */
+}
