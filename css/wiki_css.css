@@ -1,0 +1,85 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.back-button {
+    color: #fff; /* Couleur du texte */
+    background-color: #ff0000; /* Couleur de fond rouge */
+    padding: 10px 20px; /* Espacement du bouton */
+    border-radius: 5px; /* Coins arrondis */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    margin-right: 20px; /* Espacement à droite du titre */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+.wiki-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px; /* Adjust the width as needed */
+    height: 100%;
+    background-color: #f3f3f3;
+    overflow-y: auto; /* Enable vertical scrolling */
+    z-index: 1000; /* Ensure the sidebar is above other elements */
+}
+
+.content {
+    margin-left: 300px; /* Adjust the margin to make space for the sidebar */
+    padding: 20px;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+.content a {
+    color: #007bff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
